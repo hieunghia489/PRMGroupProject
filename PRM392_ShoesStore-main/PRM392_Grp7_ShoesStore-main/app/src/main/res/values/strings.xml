@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">Shoes Store</string>
+
+    // adidas
+
+    <string name="Size">
+        Size35-36;
+    Size36-37;
+    Size37-38;
+    Size38-39;
+    Size39-40;
+    Size40-41;
+    Size41-42;
+    Size42-43;
+    Size43-44;
+
+    </string>
+
+    <string name="Description">Adidas
+    /nMẫu giày Adidas Yeezy gồm 3 phiên bản nổi bật, bao gồm: Adidas Yeezy 350 V2, Adidas Yeezy 700, Adidas Yeezy 750.
+    /nMẫu giày này có thiết kế đơn giản, chất vải nhẹ, đế êm, tông màu thời thượng cùng với phong cách street style độc đáo.</string>
+
+
+    // nike
+
+    <string name="Size1">
+    Size35-36;
+    Size36-37;
+    Size37-38;
+    Size38-39;
+    Size39-40;
+    Size40-41;
+    Size41-42;
+    Size42-43;
+    Size43-44;</string>
+
+    <string name="Description1">Adidas
+    /nVới thiết kế trẻ trung, hiện đại và không kém phần độc đáo, Nike đang ngày càng chiếm được thị phần lớn giữa hàng loạt các ông trùm lớn khác.
+    /nĐem đến sự khác biệt cho giới trẻ hiện nay, được thiết kế với 3 màu đặc sắc: trắng, đỏ, vàng sẽ là sự chọn lựa cho mọi lứa tuổi</string>
+
+
+    // Convert
+
+    <string name="Size2">
+    Size35-36;
+    Size36-37;
+    Size37-38;
+    Size38-39;
+    Size39-40;
+    Size40-41;
+    Size41-42;
+    Size42-43;
+    Size43-44;</string>
+
+    <string name="Description2">
+    /nHọa tiết lưỡi lửa là hình ảnh truyền thống, nổi bật của văn hóa punk rock được nhiều người biết đến những năm 80 – 90 của thế kỷ trước
+    /nVới nhiều bản phối: Bản đen cổ cao kết hợp với ngọn lửa đỏ, bản giày Converse màu trắng cổ thấp có lửa đỏ và bản Conversen màu đen được phối với ngọn lửa màu tím.</string>
+
+
+    // MLB
+
+    <string name="Size3">
+    Size35-36;
+    Size36-37;
+    Size37-38;
+    Size38-39;
+    Size39-40;
+    Size40-41;
+    Size41-42;
+    Size42-43;
+    Size43-44;</string>
+
+    <string name="Description3">
+    Có rất nhiều kiểu dáng nhưng có lẽ MLB Big Ball Chunky P Bostom đang là mẫu giày ưa chuộng nhất của hãng này. Trắng pha đỏ tuy màu sắc đơn giản nhưng lại nổi bật bởi thiết kế phá cách.
+    Được thiết kế và gia công đạt độ tỉ mỉ, độc đáo nên giày thể thao MLB super fake rất dễ dàng để phối đồ và đa dạng không gian sử dụng. Phần đế giày được thiết kế giúp bạn tăng chiều cao đáng kể.</string>
+
+
+    // Puma
+
+    <string name="Size4">
+    Size35-36;
+    Size36-37;
+    Size37-38;
+    Size38-39;
+    Size39-40;
+    Size40-41;
+    Size41-42;
+    Size42-43;
+    Size43-44;</string>
+
+    <string name="Description4">
+     Puma by Rihanna Creeper White Leather là một công cụ đánh đầu khi nó xuất hiện với rất nhiều chi tiết nổi bật từ phần trên, dây buộc, đế và thương hiệu.
+    Giá cao hơn so với giày thể thao Puma thời trang thông thường của bạn , siêu phẩm được chế tạo này không chỉ là phong các mà còn cực chất vì lớp vỏ sang trọng và đế dày của nó giúp nó bền để tồn tại trong một thời gian dài.</string>
+
+
+    // New balance
+
+    <string name="Size5">
+    Size35-36;
+    Size36-37;
+    Size37-38;
+    Size38-39;
+    Size39-40;
+    Size40-41;
+    Size41-42;
+    Size42-43;
+    Size43-44;</string>
+
+    <string name="Description5">
+   Phần upper giày New Balance 300 sở hữu chất liệu chống thấm Repreve nổi tiếng của New Balance làm từ nhựa tái chế, thoáng và hút ẩm.
+   Phần đế giày New Balance 300 sở hữu công nghệ REVlite cực nhẹ và êm, nhất là phần midsole giày được làm nhẹ tối đa trong khi độ êm đế giày được tăng cường.
+    Các bản phối giày sneaker New Balance 300 dành cho cả nam và nữ đơn giản nhưng ấn tượng và cực dễ phối đồ.</string>
+
+
+    // Convert
+
+    <string name="Size6">
+    Size35-36;
+    Size36-37;
+    Size37-38;
+    Size38-39;
+    Size39-40;
+    Size40-41;
+    Size41-42;
+    Size42-43;
+    Size43-44;</string>
+
+    <string name="Description6">
+    Có thể bạn chưa biết The Flying Hawk và Simple Union là hai thương hiệu nổi tiếng chuyên về mảng custom theo yêu cầu. Và lần hợp tác cùng với Vans đã cho ra đời bộ sưu tập Vans x The Flying Hawk x Simple Union lấy cảm hứng từ những nét văn hóa đặc trưng của đất nước Mặt Trời Mọc.
+    Mặt nạ Cáo, lật đật và những đồ vật mang âm hưởng truyền thống của Nhật Bản được khắc họa rõ nét trên những sản phẩm. Trong đó, mặt nạ cáo đen và trắng được ví như linh vật thông báo tin tức cho thần nông nghiệp Inari. </string>
+
+
+</resources>

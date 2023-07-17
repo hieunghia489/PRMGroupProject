@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txtTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Edit Shoe"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtShoeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTextView"
+        android:layout_marginTop="20dp"
+        android:hint="Shoe Name"
+        android:text=""
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:id="@+id/imgView_EditShoe"
+        android:layout_marginTop="130dp"/>
+    <Button
+        android:id="@+id/btnChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Choose Image"
+        android:layout_marginTop="290dp"
+        android:onClick="selectImageEdit"/>
+
+    <EditText
+        android:id="@+id/txtShoeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTextView"
+        android:layout_marginTop="290dp"
+        android:hint="Shoe Description"
+        android:text=""
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtShoePrimaryPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTextView"
+        android:layout_marginTop="340dp"
+        android:hint="Shoe Primary Price"
+        android:text=""
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtQuatity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTextView"
+        android:layout_marginTop="390dp"
+        android:hint="Quantity"
+        android:text=""
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtQuatity"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

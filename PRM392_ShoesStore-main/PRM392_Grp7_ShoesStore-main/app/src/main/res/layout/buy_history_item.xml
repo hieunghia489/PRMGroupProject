@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/item_background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Mã Hóa Đơn: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/title"
+        android:id="@+id/txtBuyHistoryId"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Ngày Mua: "
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:id="@+id/txtBuyHistoryDate"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Tổng: "
+        android:gravity="right"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:id="@+id/txtBuyHistoryTotalPrice"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="5dp"/>
+</LinearLayout>

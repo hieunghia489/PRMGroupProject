@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tool_bar">
+
+        <TextView
+            android:id="@+id/txtTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Add Shoe"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:padding="5dp">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Brand"-->
+<!--            android:textSize="20sp" />-->
+
+<!--        <Spinner-->
+<!--            android:id="@+id/x_spinner_brandId"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+<!--    </LinearLayout>-->
+
+    <EditText
+        android:id="@+id/txtShoeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shoe Name"
+        android:text=""
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/txtShoeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shoe Description"
+        android:text=""
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtShoePrimaryPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shoe Price"
+        android:text=""
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtQuatity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:text=""
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:id="@+id/imgView_Shoe"/>
+        <Button
+            android:id="@+id/btnChooseImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Image"
+            android:onClick="selectImage"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:onClick="AddAndUploadImage"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

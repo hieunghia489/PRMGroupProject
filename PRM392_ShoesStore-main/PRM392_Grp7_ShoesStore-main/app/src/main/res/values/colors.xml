@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="title">#4266f5</color>
+    <color name="item_background">#9cc2ff</color>
+    <color name="red">#fc4c4c</color>
+
+    <color name="lavender">#8692f7</color>
+
+    <color name="tool_bar">#51cfc2</color>
+
+</resources>

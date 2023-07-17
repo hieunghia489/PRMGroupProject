@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.DetailProductActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailName"
+        android:layout_marginTop="14dp"
+        android:text="Recipe Name"
+        android:textSize="24sp"
+        android:textColor="@color/lavender"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:id="@+id/detailImage"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoe Name:"
+        android:textColor="@color/lavender"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/detailShoeName"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:gravity=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decription:"
+        android:textColor="@color/lavender"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:id="@+id/descripton"/>
+
+    <TextView
+        android:id="@+id/detailDescription"
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_below="@+id/descripton">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/detailbtnBack"/>
+    </LinearLayout>
+
+</LinearLayout>

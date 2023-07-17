@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mAdminManage"
+        android:title="Manage Shoes" />
+    <item
+        android:id="@+id/mAdminAdd"
+        android:title="Add New Shoes" />
+    <item
+        android:id="@+id/mAdminLogout"
+        android:title="Logout" />
+    <item
+        android:id="@+id/mAdminExit"
+        android:title="Exit" />
+</menu>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F1EC">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/top_background" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/women1" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/while_background"
+        android:padding="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Email1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textColor="#e98c6b"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtSignupUsername"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/orange_button"
+                android:ems="10"
+                android:hint="Enter here"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="16sp"
+
+                />
+
+            <TextView
+                android:id="@+id/Password1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Password"
+                android:textColor="#e98c6b"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtSignupPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/orange_button"
+                android:ems="10"
+                android:hint="Enter here"
+                android:inputType="textPassword"
+                android:padding="16dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/CofirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="CofirmPassword"
+                android:textColor="#e98c6b"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtSignupConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/orange_button"
+                android:ems="10"
+                android:hint="Enter here"
+                android:inputType="textPassword"
+                android:padding="16dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnSignup"
+                style="@android:style/Widget.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/dark_button"
+                android:text="Signup"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:onClick="btnSignup_Click"
+                />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
